@@ -88,6 +88,14 @@ fun TataletakRowColumn(modifier: Modifier = Modifier) {
             Text("Kolom1-Komponen2")
             Text("Kolom1-Komponen3")
         }
+        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+            Text("Kolom2-Komponen1")
+            Text("Kolom2-Komponen2")
+            Text("Kolom2-Komponen3")
+        }
+    }
+}
+
 
 
 
