@@ -126,6 +126,18 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
                 fontFamily = FontFamily.Cursive,
                 modifier = Modifier.align(Alignment.Center)
             )
+            Text(
+                text = "Muhammad Shidqul Iman",
+                fontSize = 35.sp,
+                color = Color(0xFF008080),
+                fontWeight = FontWeight.Bold,
+                fontFamily = FontFamily.Cursive,
+                modifier = Modifier
+                    .align(Alignment.TopCenter)
+                    .offset(y = (-180).dp)
+
+            )
+
         }
     }
 }
