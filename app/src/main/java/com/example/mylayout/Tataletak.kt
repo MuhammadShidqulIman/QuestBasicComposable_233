@@ -106,6 +106,12 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Box(
+            modifier = Modifier
+                .size(300.dp) // area gambar + teks
+                .background(Color.Transparent),
+            contentAlignment = Alignment.Center
+        ) {
 
 
 
