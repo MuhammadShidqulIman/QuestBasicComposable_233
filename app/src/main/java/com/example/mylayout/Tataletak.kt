@@ -118,6 +118,18 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
                 contentScale = ContentScale.Fit,
                 modifier = Modifier.size(170.dp)
             )
+            Text(
+                text = "My Music",
+                fontSize = 80.sp,
+                color = Color(0xFF008080),
+                fontWeight = FontWeight.Bold,
+                fontFamily = FontFamily.Cursive,
+                modifier = Modifier.align(Alignment.Center)
+            )
+        }
+    }
+}
+
 
 
 
