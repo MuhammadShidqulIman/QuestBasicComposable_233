@@ -99,6 +99,14 @@ fun TataletakRowColumn(modifier: Modifier = Modifier) {
 @Composable
 fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
     val gambar = painterResource(id = R.drawable.musik)
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .background(Color.White), // latar putih
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+
 
 
 
