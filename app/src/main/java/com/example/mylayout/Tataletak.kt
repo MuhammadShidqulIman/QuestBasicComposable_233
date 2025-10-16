@@ -40,3 +40,18 @@ fun TataletakRow(modifier: Modifier = Modifier) {
     }
 }
 
+@Composable
+fun TataletakBox(modifier: Modifier = Modifier) {
+    Box(
+        modifier = modifier
+            .fillMaxWidth()
+            .height(100.dp)
+            .background(Color.LightGray),
+        contentAlignment = Alignment.Center
+    ) {
+        Text("Ini di dalam Box", fontWeight = FontWeight.Bold)
+    }
+}
+
+
+
