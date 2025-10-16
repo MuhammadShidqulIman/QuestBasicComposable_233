@@ -112,6 +112,13 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
                 .background(Color.Transparent),
             contentAlignment = Alignment.Center
         ) {
+            Image(
+                painter = gambar,
+                contentDescription = "Gambar Musik",
+                contentScale = ContentScale.Fit,
+                modifier = Modifier.size(170.dp)
+            )
+
 
 
 
